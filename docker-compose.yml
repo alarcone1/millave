@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: $APP_IP:$APP_PORT
+      APP_PORT: "8090"
+
+  millave:
+    build: .
+    restart: unless-stopped
+    environment:
+      - MILLAVE_DB_PATH=/app/data/vault.db
+      - MILLAVE_HOST=0.0.0.0
+      - MILLAVE_PORT=8090
+      - MILLAVE_ENV=production
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data

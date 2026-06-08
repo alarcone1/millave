@@ -1,0 +1,50 @@
+:root {
+    /* Paleta Semántica — Entorno (El Terciopelo) */
+    --bg-root: #0a0a0f;
+    --bg-texture: url("");
+    --text-main: #e8e6e3;
+    --text-muted: #5a5a64;
+    --text-inverse: #0a0a0f;
+    --border-subtle: rgba(255, 255, 255, 0.06);
+
+    /* Paleta Semántica — La Joya (Tokens de Luz) */
+    --glow-primary: rgba(212, 175, 55, 0.6);
+    --glow-active: rgba(212, 175, 55, 1.0);
+    --accent-primary: rgba(212, 175, 55, 0.3);
+    --accent-hover: rgba(212, 175, 55, 0.5);
+    --border-glow: rgba(255, 255, 255, 0.15);
+
+    /* Paleta Semántica — Franja de Categoría */
+    --franja-finanzas: #d4af37;
+    --franja-redes: #4a9eff;
+    --franja-desarrollo: #00d4aa;
+    --franja-correspondencia: #c0c0c0;
+    --franja-entretenimiento: #ff6b6b;
+    --franja-seguridad: #a855f7;
+    --franja-general: #78716c;
+
+    /* Paleta Semántica — Metadatos de Estado */
+    --state-error: #ef4444;
+    --state-success: #22c55e;
+    --state-warning: #eab308;
+    --state-info: #3b82f6;
+
+    /* Escala Espacial (Grid de 8px) */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 48px;
+    --space-2xl: 80px;
+
+    /* Tipografía */
+    --font-display: 'Instrument Serif', serif;
+    --font-body: 'DM Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Border Radius */
+    --key-radius: 16px;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+}
