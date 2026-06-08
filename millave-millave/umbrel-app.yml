@@ -1,14 +1,14 @@
 manifestVersion: 1.1
-id: millave
+id: millave-millave
 name: Millave
 version: 1.0.0
 icon: icon.png
 logo: icon.png
 hasInstaller: false
-repository: https://github.com/alarcone/millave
+repository: https://github.com/alarcone1/millave
 developer: Edgar Alarcón
-website: https://github.com/alarcone/millave
-support: https://github.com/alarcone/millave/issues
+website: https://github.com/alarcone1/millave
+support: https://github.com/alarcone1/millave/issues
 gallery:
   - 1.jpg
   - 2.jpg
