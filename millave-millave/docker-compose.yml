@@ -3,10 +3,10 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: $APP_IP:$APP_PORT
-      APP_PORT: "8090"
+      APP_HOST: millave-millave_web_1
+      APP_PORT: 8090
 
-  millave:
+  web:
     build: .
     restart: unless-stopped
     environment:

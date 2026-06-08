@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: millave-millave
+name: Millave
+version: "1.0.0"
+tagline: Gestor de contraseñas personal con cifrado SQLCipher
+description: >-
+  Gestor de contraseñas personal con cifrado SQLCipher,
+  autenticación Argon2id y frase de recuperación BIP-39.
+  Todo se mantiene dentro de tu homelab.
+releaseNotes: ""
+developer: Edgar Alarcón
+website: https://github.com/alarcone1/millave
+repo: https://github.com/alarcone1/millave
+support: https://github.com/alarcone1/millave/issues
+port: 8090
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultPassword: ""
